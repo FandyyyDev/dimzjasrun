@@ -383,7 +383,7 @@ if (!isHaruka) return sendButMessage(from, lang.noregis(pushname), `Klik Button 
 				sendButLocation(from, lang.menu(prefix, salam, pushname), '© ' + ownername, thumbnail, [{buttonId: '.owner', buttonText: {displayText: 'Owner'}, type: 1},{buttonId: '.infobot', buttonText:{displayText: 'Infobot'}, type: 1}], {quoted: mek})
 				break
 case 'sewabot': case 'sewa':
-sewa = ╠═〘 LIST SEWA BOT 〙 
+sewa = `╠═〘 LIST SEWA BOT 〙 
 ╠═ ----------------------------
 ╠➥ *PERMANEN 10K*
 ║➥ *PERBULAN 8K*
@@ -395,7 +395,7 @@ sewa = ╠═〘 LIST SEWA BOT 〙
 ║➥DANA
 ╠ 0882000579597
 ║➥QRIS ALLPAY
-╠═〘 OWNER DIMBOTZ 〙
+╠═〘 OWNER DIMBOTZ 〙`
 sendButLocation(from, sewa, '©' + ownername, thumbnail, [{buttonId: '.owner', buttonText: {displayText: 'Owner'}, type: 1},{buttonId: '.infobot', buttonText:{displayText: 'Infobot'}, type: 1}], {quoted: mek})
 break
 case 'infobot':
